@@ -19,10 +19,10 @@ class Solution {
         // int mid = st + (end-st)/2;
         while(st<=end){
             int mid = st + (end-st)/2;
-            if(nums[mid]==x){
-                return mid;
-            }
-            else if(nums[mid]>x){
+            if(nums[mid]>=x){
+                // return mid;
+            // }
+            // else if(nums[mid]>x){
                 end = mid-1;
             }
             else{
