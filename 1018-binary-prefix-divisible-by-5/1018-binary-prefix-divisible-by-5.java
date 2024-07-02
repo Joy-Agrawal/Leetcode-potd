@@ -12,7 +12,7 @@ class Solution {
             else{
                 ans.add(false);
             }
-            prev = curr;
+            prev = curr%5000;
         }
         // while(nums[i++] == 0){
         //     ans.add(true);
